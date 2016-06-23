@@ -14,7 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-gem 'jquery-ui-rails', '~> 4.2.1'
+gem 'jquery-ui-rails'
 
 gem 'gettext_i18n_rails', '>= 0.4.3'
 gem 'fast_gettext', '>= 0.7.0'
@@ -32,7 +32,7 @@ group :development do
 end
 
 # MySQL is not used, as far as I know
-gem 'mysql2', '~> 0.3.13' # required by rails 3.1
+gem 'mysql2'
 
 gem 'xmlhash', '>= 1.2.2'
 
